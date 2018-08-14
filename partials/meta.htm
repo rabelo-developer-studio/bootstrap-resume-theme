@@ -1,0 +1,23 @@
+description = "Metadata"
+==
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="OctoberCMS">
+<meta name="generator" content="OctoberCMS">
+<meta name="title" content="{{ this.page.meta_title }}">
+<meta name="description" content="{{ this.page.meta_description }}">
+
+<title>{{ this.page.title }} - {{ this.theme.site_name }}</title>
+
+<!-- Theme icon -->
+<link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
+
+<!-- Theme styles -->
+<link href="{{ [
+    '@framework.extras',
+    'assets/vendor/bootstrap/css/bootstrap.min.css',
+    'assets/vendor/fontawesome-free/css/all.min.css',
+]|theme }}" rel="stylesheet">
+
+<!-- Custom styles -->
+{% styles %}

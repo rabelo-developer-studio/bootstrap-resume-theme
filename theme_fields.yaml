@@ -1,0 +1,43 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+    site_name:
+        label: Site name
+        comment: The website name as it should appear on the front-end
+        default: October CMS
+        span: auto
+
+    site_motto:
+        label: Site motto
+        comment: A short statement about the website.
+        default: Get back to basics
+        span: auto
+
+    facebook_url:
+        label: Facebook URL
+        span: auto
+        default: ''
+
+    twitter_url:
+        label: Twitter URL
+        span: auto
+        default: ''
+
+    linkedin_url:
+        label: LinkedIn URL
+        span: auto
+        default: ''
+
+    github_url:
+        label: GitHub URL
+        span: auto
+        default: ''
+
+    profile_photo:
+        label: Profile photo
+        type: mediafinder
+        mode: image
+        imageWidth: 150
+        imageHeight: 150
